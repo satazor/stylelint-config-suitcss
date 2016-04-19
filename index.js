@@ -43,6 +43,9 @@ module.exports = {
     "max-line-length": [ 80, {
       ignore: "non-comments",
     } ],
+    "max-nesting-depth": [ 3, {
+      ignore: ["at-rules-without-declaration-blocks"],
+    } ],
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-no-vendor-prefix": true,

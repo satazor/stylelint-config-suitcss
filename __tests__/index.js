@@ -22,6 +22,14 @@ const validCss = (
   top: calc(calc(1em * 2) / 3);
 }
 
+.selector {
+  .foo {
+    &__foo {
+      > .bar { color: green; }
+    }
+  }
+}
+
 .selector-x { width: 10%; }
 .selector-y { width: 20%; }
 .selector-z { width: 30%; }
