@@ -40,7 +40,6 @@ const validCss = (
   .selector {
     transform: translate(1, 1) scale(3);
   }
-
 }
 
 @media (min-orientation: portrait), projection and (color) {
@@ -48,7 +47,6 @@ const validCss = (
     background: color(rgb(0, 0, 0) lightness(50%));
     font-family: helvetica, arial, sans-serif;
   }
-
 }
 
 @media screen and screen and (min-resolution: 192dpi),
@@ -74,7 +72,6 @@ const validCss = (
     background-image: url("x.svg");
     content: "→";
   }
-
 }
 
 `)
